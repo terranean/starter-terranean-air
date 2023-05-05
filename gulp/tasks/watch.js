@@ -38,9 +38,9 @@ function watchFiles(done) {
   const javascript = watch(config.js.watch, series('js'));
   javascript.on('change', function(path) { consoleInfo(path); });
 
-  // PHP
-  const php = watch(config.php.watch, series('phpcs'), bs.reload);
-  php.on('change', function(path) { consoleInfo(path); });
+  // // PHP
+  // const php = watch(config.php.watch, series('phpcs'), bs.reload);
+  // php.on('change', function(path) { consoleInfo(path); });
 
   // Lint styles
   watch(config.styles.watch.development, series('lintstyles'));

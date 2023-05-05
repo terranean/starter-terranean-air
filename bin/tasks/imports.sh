@@ -7,7 +7,7 @@ source ${SCRIPTS_LOCATION}/tasks/header.sh
 # Ask names and credentials
 source ${SCRIPTS_LOCATION}/tasks/askvars.sh
 
-# Get latest Air-light version with updates and copy it over to your project
+# Get latest terranean-wp-starter version with updates and copy it over to your project
 source ${SCRIPTS_LOCATION}/tasks/get-theme.sh
 
 # Set needed file and directory permissions
@@ -16,10 +16,10 @@ source ${SCRIPTS_LOCATION}/tasks/permissions.sh
 # Get and install theme dependencies, npm and devpackages
 source ${SCRIPTS_LOCATION}/tasks/dependencies.sh
 
-# Create latest Air-light development packages for project root level (gulp paths etc.)
+# Create latest terranean-wp-starter development packages for project root level (gulp paths etc.)
 source ${SCRIPTS_LOCATION}/tasks/project.sh
 
-# Clean up leftover development files from Air-light
+# Clean up leftover development files from terranean-wp-starter
 source ${SCRIPTS_LOCATION}/tasks/cleanups.sh
 
 # Add media folder, generate README.md for project etc.

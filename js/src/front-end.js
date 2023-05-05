@@ -6,7 +6,7 @@
  */
 /* eslint-disable max-len, no-param-reassign, no-unused-vars */
 /**
- * Air theme JavaScript.
+ * terranean-wp-starter JavaScript.
  */
 
 // Import modules
@@ -17,6 +17,8 @@ import backToTop from './modules/top';
 import initA11ySkipLink from './modules/a11y-skip-link';
 import initA11yFocusSearchField from './modules/a11y-focus-search-field';
 import { navDesktop, navMobile } from './modules/navigation';
+import test from './terranean/test';
+import slickjs from './terranean/slick';
 
 // Define Javascript is active by changing the body class
 document.body.classList.remove('no-js');
@@ -29,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initExternalLinkLabels();
   initA11ySkipLink();
   initA11yFocusSearchField();
+  test();
+  slickjs();
 
   // Init navigation
   navDesktop();

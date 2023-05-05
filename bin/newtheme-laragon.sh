@@ -1,5 +1,5 @@
 #!/bin/bash
-# WordPress theme starting bash script for Air-light (Laragon version)
+# WordPress theme starting bash script for terranean-wp-starter (Laragon version)
 
 # Script specific vars
 SCRIPT_LABEL='with Laragon support'
@@ -51,25 +51,25 @@ done
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://laragon.org/ Full Version
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/terranean-wp-starter
 ${TXTRESET}"
 
 # Ask names and credentials
 source ${SCRIPTS_LOCATION}/tasks/askvars.sh
 
-# Get latest Air-light version with updates and copy it over to your project
+# Get latest terranean-wp-starter version with updates and copy it over to your project
 source ${SCRIPTS_LOCATION}/tasks/get-theme.sh
 
 # Get and install theme dependencies, npm and devpackages
 source ${SCRIPTS_LOCATION}/tasks/dependencies.sh
 
-# Create latest Air-light development packages for project root level (gulp paths etc.)
+# Create latest terranean-wp-starter development packages for project root level (gulp paths etc.)
 source ${SCRIPTS_LOCATION}/tasks/project.sh
 
-# Clean up leftover development files from Air-light
+# Clean up leftover development files from terranean-wp-starter
 source ${SCRIPTS_LOCATION}/tasks/cleanups.sh
 
-# Replace Air-light with your theme name and other seds (WSL version)
+# Replace terranean-wp-starter with your theme name and other seds (WSL version)
 source ${SCRIPTS_LOCATION}/tasks/replaces-wsl.sh
 
 # Add media folder, generate README.md for project etc.

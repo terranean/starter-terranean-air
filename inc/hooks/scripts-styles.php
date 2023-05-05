@@ -7,7 +7,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-12-29 19:05:21
  *
- * @package air-light
+ * @package terranean-wp-starter
  */
 
 namespace Air_Light;

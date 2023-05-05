@@ -9,7 +9,7 @@
  * @Last Modified by:   Timi Wahalahti
  * @Last Modified time: 2023-03-31 14:50:38
  *
- * @package air-light
+ * @package terranean-wp-starter
  */
 
 namespace Air_Light;
@@ -30,7 +30,7 @@ add_action( 'after_setup_theme', function() {
     /**
      * Theme textdomain
      */
-    'textdomain' => 'air-light',
+    'textdomain' => 'terranean-wp-starter',
 
     /**
      * Content width
@@ -77,14 +77,14 @@ add_action( 'after_setup_theme', function() {
      * Menu locations
      */
     'menu_locations' => [
-      'primary' => __( 'Primary Menu', 'air-light' ),
+      'primary' => __( 'Primary Menu', 'terranean-wp-starter' ),
     ],
 
     /**
      * Taxonomies
      *
      * See the instructions:
-     * https://github.com/digitoimistodude/air-light#custom-taxonomies
+     * https://github.com/digitoimistodude/terranean-wp-starter#custom-taxonomies
      */
     'taxonomies' => [
       // 'Your_Taxonomy' => [ 'post', 'page' ],
@@ -94,7 +94,7 @@ add_action( 'after_setup_theme', function() {
      * Post types
      *
      * See the instructions:
-     * https://github.com/digitoimistodude/air-light#custom-post-types
+     * https://github.com/digitoimistodude/terranean-wp-starter#custom-post-types
      */
     'post_types' => [
       // 'Your_Post_Type',
@@ -120,7 +120,7 @@ add_action( 'after_setup_theme', function() {
 
     // Custom ACF block default settings
     'acf_block_defaults' => [
-      'category'          => 'air-light',
+      'category'          => 'terranean-wp-starter',
       'mode'              => 'auto',
       'align'             => 'full',
       'post_types'        => [

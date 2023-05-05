@@ -112,7 +112,7 @@
 * Update generated README.md in the start script
 * Fix ACF relation field color in Gutenberg blocks
 * Simplify _font-family.scss
-* Deprecate core/code, core/columns, core/cover, core/embed, core/preformatted and code/verse CSS from Air-light, use Gutenberg official styles instead
+* Deprecate core/code, core/columns, core/cover, core/embed, core/preformatted and code/verse CSS from terranean-wp-starter, use Gutenberg official styles instead
 * Add Inter as variable font
 
 ### 9.2.2: 2022-11-04
@@ -275,7 +275,7 @@
 * Disable support for additional CSS classes in blocks (thanks @timiwahalahti)
 * Bump tested up WordPress version to 6.0
 * Fix back to top label for screen readers
-* Add data-version attribute to footer indicating Air-light version in use
+* Add data-version attribute to footer indicating terranean-wp-starter version in use
 
 ### 8.4.7: 2022-05-24
 
@@ -805,7 +805,7 @@ This release includes only form style and accessibility improvements.
 
 ### 7.5.5: 2021-05-26
 
-* Bypass the file_get_contents restriction [#112](https://github.com/digitoimistodude/air-light/pull/112)
+* Bypass the file_get_contents restriction [#112](https://github.com/digitoimistodude/terranean-wp-starter/pull/112)
 
 ### 7.5.4: 2021-05-24
 
@@ -1008,7 +1008,7 @@ This release includes only form style and accessibility improvements.
 
 ### 7.0.7: 2021-04-14
 
-See [pull request #89](https://github.com/digitoimistodude/air-light/pull/89).
+See [pull request #89](https://github.com/digitoimistodude/terranean-wp-starter/pull/89).
 
 Project start scripts have been refactored completely same manner than in this [dudestack PR](https://github.com/digitoimistodude/dudestack/pull/11).
 
@@ -1021,7 +1021,7 @@ Project start scripts have been refactored completely same manner than in this [
 - Variable all the things - no need to search and replace stuff
 - Fix typos
 - Add checks for missing packages (WSL mainly)
-- Add extra notifications that these scripts need Air-light and dev servers to work
+- Add extra notifications that these scripts need terranean-wp-starter and dev servers to work
 
 ### 7.0.6: 2021-04-07
 
@@ -1170,20 +1170,20 @@ Project start scripts have been refactored completely same manner than in this [
 
 ### 6.7.2: 2021-02-19
 
-* Build production and development JS builds in gulp watch, [#63](https://github.com/digitoimistodude/air-light/pull/63)
-* Make us of new wp_get_environment_type function in modular content, [#65](https://github.com/digitoimistodude/air-light/pull/65)
+* Build production and development JS builds in gulp watch, [#63](https://github.com/digitoimistodude/terranean-wp-starter/pull/63)
+* Make us of new wp_get_environment_type function in modular content, [#65](https://github.com/digitoimistodude/terranean-wp-starter/pull/65)
 
 ### 6.7.1: 2021-02-18
 
-* Accessibility: Add required outline parameters for global links, [ab54efc](https://github.com/digitoimistodude/air-light/commit/ab54efc820bfd94a6a15ea492e143971c54ea684)
-* Add button components, [#62](https://github.com/digitoimistodude/air-light/pull/62)
+* Accessibility: Add required outline parameters for global links, [ab54efc](https://github.com/digitoimistodude/terranean-wp-starter/commit/ab54efc820bfd94a6a15ea492e143971c54ea684)
+* Add button components, [#62](https://github.com/digitoimistodude/terranean-wp-starter/pull/62)
 
 ### 6.7.0: 2021-02-18
 
 * Add correct protocol to newtheme script final output
 ### 6.6.9: 2021-02-16
 
-* Update documentation about installing Air-light on any development environment
+* Update documentation about installing terranean-wp-starter on any development environment
 * Update clean up script bin/air-move-out.sh to clean up cpt files that are not allowed in theme directory because they are "plugin-territory functionality". Also documenting this in this point.
 ### 6.6.8: 2021-02-16
 

@@ -1,5 +1,5 @@
 echo "${YELLOW}Cleaning up...${TXTRESET}"
-# We do not want Air-light to be in git any more since this a new theme
+# We do not want terranean-wp-starter to be in git any more since this a new theme
 cd $PROJECT_THEME_PATH && rm -rf .git
 
 # We already have .stylelintrc in project root

@@ -9,7 +9,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-05-25 20:18:40
  *
- * @package air-light
+ * @package terranean-wp-starter
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 

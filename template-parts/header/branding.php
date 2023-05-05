@@ -2,7 +2,7 @@
 /**
  * Site branding & logo
  *
- * @package air-light
+ * @package terranean-wp-starter
  */
 
 namespace Air_Light;

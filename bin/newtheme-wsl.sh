@@ -1,5 +1,5 @@
 #!/bin/bash
-# WordPress theme starting bash script for Air-light (WSL version)
+# WordPress theme starting bash script for terranean-wp-starter (WSL version)
 
 # Script specific vars
 SCRIPT_LABEL='with WSL support'
@@ -27,13 +27,13 @@ source ${SCRIPTS_LOCATION}/tasks/wsl-packages.sh
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://github.com/digitoimistodude/windows-lemp-setup
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/terranean-wp-starter
 ${TXTRESET}"
 
 # Import required tasks
 source ${SCRIPTS_LOCATION}/tasks/imports.sh
 
-# Replace Air-light with your theme name and other seds (WSL version)
+# Replace terranean-wp-starter with your theme name and other seds (WSL version)
 source ${SCRIPTS_LOCATION}/tasks/replaces-wsl.sh
 
 # The end

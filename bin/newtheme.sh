@@ -1,5 +1,5 @@
 #!/bin/bash
-# WordPress theme starting bash script for Air-light
+# WordPress theme starting bash script for terranean-wp-starter
 # @Author: Roni Laukkarinen
 # @Date:   2021-04-22 08:06:02
 # @Last Modified by:   Roni Laukkarinen
@@ -28,13 +28,13 @@ fi
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://github.com/digitoimistodude/macos-lemp-setup
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/terranean-wp-starter
 ${TXTRESET}"
 
 # Import required tasks
 source ${SCRIPTS_LOCATION}/tasks/imports.sh
 
-# Replace Air-light with your theme name and other seds
+# Replace terranean-wp-starter with your theme name and other seds
 source ${SCRIPTS_LOCATION}/tasks/replaces.sh
 
 # The end

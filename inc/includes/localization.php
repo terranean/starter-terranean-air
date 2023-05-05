@@ -5,7 +5,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-12-29 19:05:36
  *
- * @package air-light
+ * @package terranean-wp-starter
  */
 
 namespace Air_Light;
@@ -16,7 +16,7 @@ add_filter( 'air_helper_pll_register_strings', function() {
   ];
 
   /**
-   * Uncomment if you need to have default air-light accessibility strings
+   * Uncomment if you need to have default terranean-wp-starter accessibility strings
    * translatable via Polylang string translations.
    */
   // foreach ( get_default_localization_strings() as $key => $value ) {
@@ -29,27 +29,27 @@ add_filter( 'air_helper_pll_register_strings', function() {
 function get_default_localization_strings( $language = 'en' ) {
   $strings = [
     'en'  => [
-      'Add a menu'                                   => __( 'Add a menu', 'air-light' ),
-      'Open main menu'                               => __( 'Open main menu', 'air-light' ),
-      'Close main menu'                              => __( 'Close main menu', 'air-light' ),
-      'Main navigation'                              => __( 'Main navigation', 'air-light' ),
-      'Back to top'                                  => __( 'Back to top', 'air-light' ),
-      'Open child menu for'                          => __( 'Open child menu for', 'air-light' ),
-      'Close child menu for'                         => __( 'Close child menu for', 'air-light' ),
-      'Skip to content'                              => __( 'Skip to content', 'air-light' ),
-      'Skip over the carousel element'               => __( 'Skip over the carousel element', 'air-light' ),
-      'External site'                                => __( 'External site', 'air-light' ),
-      'opens in a new window'                        => __( 'opens in a new window', 'air-light' ),
-      'Page not found.'                              => __( 'Page not found.', 'air-light' ),
-      'The reason might be mistyped or expired URL.' => __( 'The reason might be mistyped or expired URL.', 'air-light' ),
-      'Search'                                       => __( 'Search', 'air-light' ),
-      'Block missing required data'                  => __( 'Block missing required data', 'air-light' ),
-      'This error is shown only for logged in users' => __( 'This error is shown only for logged in users', 'air-light' ),
-      'No results found for your search'             => __( 'No results found for your search', 'air-light' ),
-      'Edit'                                         => __( 'Edit', 'air-light' ),
-      'Previous slide'                               => __( 'Previous slide', 'air-light' ),
-      'Next slide'                                   => __( 'Next slide', 'air-light' ),
-      'Last slide'                                   => __( 'Last slide', 'air-light' ),
+      'Add a menu'                                   => __( 'Add a menu', 'terranean-wp-starter' ),
+      'Open main menu'                               => __( 'Open main menu', 'terranean-wp-starter' ),
+      'Close main menu'                              => __( 'Close main menu', 'terranean-wp-starter' ),
+      'Main navigation'                              => __( 'Main navigation', 'terranean-wp-starter' ),
+      'Back to top'                                  => __( 'Back to top', 'terranean-wp-starter' ),
+      'Open child menu for'                          => __( 'Open child menu for', 'terranean-wp-starter' ),
+      'Close child menu for'                         => __( 'Close child menu for', 'terranean-wp-starter' ),
+      'Skip to content'                              => __( 'Skip to content', 'terranean-wp-starter' ),
+      'Skip over the carousel element'               => __( 'Skip over the carousel element', 'terranean-wp-starter' ),
+      'External site'                                => __( 'External site', 'terranean-wp-starter' ),
+      'opens in a new window'                        => __( 'opens in a new window', 'terranean-wp-starter' ),
+      'Page not found.'                              => __( 'Page not found.', 'terranean-wp-starter' ),
+      'The reason might be mistyped or expired URL.' => __( 'The reason might be mistyped or expired URL.', 'terranean-wp-starter' ),
+      'Search'                                       => __( 'Search', 'terranean-wp-starter' ),
+      'Block missing required data'                  => __( 'Block missing required data', 'terranean-wp-starter' ),
+      'This error is shown only for logged in users' => __( 'This error is shown only for logged in users', 'terranean-wp-starter' ),
+      'No results found for your search'             => __( 'No results found for your search', 'terranean-wp-starter' ),
+      'Edit'                                         => __( 'Edit', 'terranean-wp-starter' ),
+      'Previous slide'                               => __( 'Previous slide', 'terranean-wp-starter' ),
+      'Next slide'                                   => __( 'Next slide', 'terranean-wp-starter' ),
+      'Last slide'                                   => __( 'Last slide', 'terranean-wp-starter' ),
     ],
     'fi'  => [
       'Add a menu'                                   => 'Luo uusi valikko',

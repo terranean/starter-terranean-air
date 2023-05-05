@@ -1,6 +1,6 @@
 /**
  * Navigation.js module
- * The original, accessible navigation module for Air-light
+ * The original, accessible navigation module for terranean-wp-starter
  *
  * @Author: Roni Laukkarinen
  * @Date:   2022-06-30 16:24:47

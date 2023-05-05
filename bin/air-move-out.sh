@@ -13,33 +13,33 @@ echo "${YELLOW}Moving dev files out...${TXTRESET}"
 mkdir -p $HOME/air-temp
 find . -name '.DS_Store' -type f -delete
 find ../ -name '.DS_Store' -type f -delete
-rm /var/www/airdev/content/themes/air-light/sass/components/.gitkeep $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/sass/modules/.gitkeep $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.hintrc $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.stylelintignore $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.nvmrc $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.eslintrc.js $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.browserslistrc $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.vscode $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.svgo.yml $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.accessibilityrc $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.git $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.gitignore $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.jshintignore $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.travis.yml $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/package.json $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/package-lock.json $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/phpcs.xml $HOME/air-temp/
-sudo mv /var/www/airdev/content/themes/air-light/node_modules $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/gulpfile.js $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/bin $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/content $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/__MACOSX $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.scss-lint.yml $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/front-page.php $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/README.md $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.stylelintrc $HOME/air-temp/
-mv /var/www/airdev/content/themes/air-light/.editorconfig $HOME/air-temp/
+rm /var/www/airdev/content/themes/terranean-wp-starter/sass/components/.gitkeep $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/sass/modules/.gitkeep $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.hintrc $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.stylelintignore $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.nvmrc $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.eslintrc.js $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.browserslistrc $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.vscode $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.svgo.yml $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.accessibilityrc $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.git $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.gitignore $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.jshintignore $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.travis.yml $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/package.json $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/package-lock.json $HOME/air-temp/
+# mv /var/www/airdev/content/themes/terranean-wp-starter/phpcs.xml $HOME/air-temp/
+sudo mv /var/www/airdev/content/themes/terranean-wp-starter/node_modules $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/gulpfile.js $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/bin $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/content $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/__MACOSX $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.scss-lint.yml $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/front-page.php $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/README.md $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.stylelintrc $HOME/air-temp/
+mv /var/www/airdev/content/themes/terranean-wp-starter/.editorconfig $HOME/air-temp/
 mkdir -p $HOME/air-temp/template-parts
 mkdir -p $HOME/air-temp/template-parts/header
 mkdir -p $HOME/air-temp/template-parts/footer
@@ -48,12 +48,12 @@ mkdir -p $HOME/air-temp/template-parts/footer
 # Because:
 # REQUIRED: The theme uses the register_taxonomy() function, which is plugin-territory functionality.
 # REQUIRED: The theme uses the register_post_type() function, which is plugin-territory functionality.
-rm /var/www/airdev/content/themes/air-light/inc/includes/taxonomy.php
-rm /var/www/airdev/content/themes/air-light/inc/includes/post-type.php
+rm /var/www/airdev/content/themes/terranean-wp-starter/inc/includes/taxonomy.php
+rm /var/www/airdev/content/themes/terranean-wp-starter/inc/includes/post-type.php
 
 # Screenshot, related to: https://themes.trac.wordpress.org/ticket/100180#comment:2
-mv /var/www/airdev/content/themes/air-light/screenshot.png $HOME/air-temp/
-cd /var/www/airdev/content/themes/air-light/
+mv /var/www/airdev/content/themes/terranean-wp-starter/screenshot.png $HOME/air-temp/
+cd /var/www/airdev/content/themes/terranean-wp-starter/
 wget https://i.imgur.com/idVvQKv.png
 mv -v idVvQKv.png screenshot.png
 

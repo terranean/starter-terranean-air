@@ -5,7 +5,7 @@
  * @Last Modified by:   Timi Wahalahti
  * @Last Modified time: 2023-03-31 14:29:17
  *
- * @package air-light
+ * @package terranean-wp-starter
  */
 
 namespace Air_Light;
@@ -22,20 +22,20 @@ class Your_Taxonomy extends Taxonomy {
   public function register( array $post_types = [] ) {
     // Taxonomy labels.
     $labels = [
-      'name'                  => _x( 'Your Taxonomies', 'Taxonomy plural name', 'air-light' ),
-      'singular_name'         => _x( 'Your Taxonomy', 'Taxonomy singular name', 'air-light' ),
-      'search_items'          => __( 'Search Your Taxonomies', 'air-light' ),
-      'popular_items'         => __( 'Popular Your Taxonomies', 'air-light' ),
-      'all_items'             => __( 'All Your Taxonomies', 'air-light' ),
-      'parent_item'           => __( 'Parent Your Taxonomy', 'air-light' ),
-      'parent_item_colon'     => __( 'Parent Your Taxonomy', 'air-light' ),
-      'edit_item'             => __( 'Edit Your Taxonomy', 'air-light' ),
-      'update_item'           => __( 'Update Your Taxonomy', 'air-light' ),
-      'add_new_item'          => __( 'Add New Your Taxonomy', 'air-light' ),
-      'new_item_name'         => __( 'New Your Taxonomy', 'air-light' ),
-      'add_or_remove_items'   => __( 'Add or remove Your Taxonomies', 'air-light' ),
-      'choose_from_most_used' => __( 'Choose from most used Taxonomies', 'air-light' ),
-      'menu_name'             => __( 'Your Taxonomy', 'air-light' ),
+      'name'                  => _x( 'Your Taxonomies', 'Taxonomy plural name', 'terranean-wp-starter' ),
+      'singular_name'         => _x( 'Your Taxonomy', 'Taxonomy singular name', 'terranean-wp-starter' ),
+      'search_items'          => __( 'Search Your Taxonomies', 'terranean-wp-starter' ),
+      'popular_items'         => __( 'Popular Your Taxonomies', 'terranean-wp-starter' ),
+      'all_items'             => __( 'All Your Taxonomies', 'terranean-wp-starter' ),
+      'parent_item'           => __( 'Parent Your Taxonomy', 'terranean-wp-starter' ),
+      'parent_item_colon'     => __( 'Parent Your Taxonomy', 'terranean-wp-starter' ),
+      'edit_item'             => __( 'Edit Your Taxonomy', 'terranean-wp-starter' ),
+      'update_item'           => __( 'Update Your Taxonomy', 'terranean-wp-starter' ),
+      'add_new_item'          => __( 'Add New Your Taxonomy', 'terranean-wp-starter' ),
+      'new_item_name'         => __( 'New Your Taxonomy', 'terranean-wp-starter' ),
+      'add_or_remove_items'   => __( 'Add or remove Your Taxonomies', 'terranean-wp-starter' ),
+      'choose_from_most_used' => __( 'Choose from most used Taxonomies', 'terranean-wp-starter' ),
+      'menu_name'             => __( 'Your Taxonomy', 'terranean-wp-starter' ),
     ];
 
     $args = [
