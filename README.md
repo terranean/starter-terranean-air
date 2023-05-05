@@ -6,7 +6,8 @@
 - Node version : 18.14.2
 
 ## Additions:
-- TailwindCSS
+- [TailwindCSS](https://tailwindcss.com/)
+- [Slick](https://kenwheeler.github.io/slick/)
 
 ## How-To:
 
