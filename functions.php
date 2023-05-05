@@ -136,46 +136,47 @@ add_action( 'after_setup_theme', function() {
 
     // Restrict to only selected blocks
     // Set the value to 'all' to allow all blocks everywhere
-   'allowed_blocks' => [
-      'default' => [
-      ],
-      'post' => [
-        'core/archives',
-        'core/audio',
-        'core/buttons',
-        'core/categories',
-        'core/code',
-        'core/column',
-        'core/columns',
-        'core/coverImage',
-        'core/embed',
-        'core/file',
-        'core/freeform',
-        'core/gallery',
-        'core/heading',
-        'core/html',
-        'core/image',
-        'core/latestComments',
-        'core/latestPosts',
-        'core/list',
-        'core/list-item',
-        'core/more',
-        'core/nextpage',
-        'core/paragraph',
-        'core/preformatted',
-        'core/pullquote',
-        'core/quote',
-        'core/block',
-        'core/separator',
-        'core/shortcode',
-        'core/spacer',
-        'core/subhead',
-        'core/table',
-        'core/textColumns',
-        'core/verse',
-        'core/video',
-      ],
-    ],
+  //  'allowed_blocks' => [
+  //     'default' => [
+  //       'all'
+  //     ],
+  //     'post' => [
+  //       'core/archives',
+  //       'core/audio',
+  //       'core/buttons',
+  //       'core/categories',
+  //       'core/code',
+  //       'core/column',
+  //       'core/columns',
+  //       'core/coverImage',
+  //       'core/embed',
+  //       'core/file',
+  //       'core/freeform',
+  //       'core/gallery',
+  //       'core/heading',
+  //       'core/html',
+  //       'core/image',
+  //       'core/latestComments',
+  //       'core/latestPosts',
+  //       'core/list',
+  //       'core/list-item',
+  //       'core/more',
+  //       'core/nextpage',
+  //       'core/paragraph',
+  //       'core/preformatted',
+  //       'core/pullquote',
+  //       'core/quote',
+  //       'core/block',
+  //       'core/separator',
+  //       'core/shortcode',
+  //       'core/spacer',
+  //       'core/subhead',
+  //       'core/table',
+  //       'core/textColumns',
+  //       'core/verse',
+  //       'core/video',
+  //     ],
+  //   ],
 
     // If you want to use classic editor somewhere, define it here
     'use_classic_editor' => [],
@@ -199,3 +200,8 @@ require get_theme_file_path( '/inc/template-tags.php' );
 // Run theme setup
 add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\build_theme_support' );
+
+// Blockstudio editor
+add_filter('blockstudio/editor/users', function () {
+  return [1];
+});
